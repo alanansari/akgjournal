@@ -1,26 +1,25 @@
-'use client'
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { openSans, oswald } from '../../utils/fonts'
 
 const Navbar = (props: any) => {
     const {page} = props
     return (
-        <div className='w-[100%] flex flex-col justify-center items-center m-0 p-1 text-[#333]'>
-            <div className='flex min-h-10 w-[100vw] border-b-[1px] justify-center items-center'>
+        <div className={`w-[100%] fixed flex flex-col justify-center items-center p-1 text-[#333] bg-white border-b-[1px] ${openSans.className}`}>
+            <div className='flex w-[100vw] border-b-[1px] justify-center items-center'>
                 <Image
-                    className='p-2' 
+                    className='px-2 py-1' 
                     src='akglogo.svg'
                     alt='akglogo'
                     width={44}
                     height={44}
                 />
-                <div className='font-sans font-bold text-xs'>AJAY KUMAR GARG ENGINEERING COLLEGE</div>
+                <div className={`font-sans font-bold text-xs lg:text-sm ${oswald.className}`}>AJAY KUMAR GARG ENGINEERING COLLEGE</div>
                 <div className='text-xs px-1 hidden md:block'>(Affiliated to Dr. APJ Abdul Kalam Technical University, Lucknow, UP, College Code - 027)</div>
             </div>
-            <ul className='flex w-[100vw] justify-center p-1 text-xs border-b-[1px]'>
-                
-                <li className={"hover:font-bold w-[10rem] text-center "+((page==="home")?"font-bold":"")}>
+            <ul className='flex w-[100vw] py-1 justify-center items-center text-[12px] lg:text-[16px]'>
+                <li className={"hover:font-bold w-[9rem] text-center "+((page==="home")?"font-bold":"")}>
                     <Link href="/">Home</Link>
                 </li>
                 <li className={'hover:font-bold w-[12rem] text-center '+((page=='patronincheif')?"font-bold":"")}>
@@ -35,7 +34,7 @@ const Navbar = (props: any) => {
                 <li className={'hover:font-bold w-[12rem] text-center '+((page=='payment')?"font-bold":"")}>
                     <Link href="/payment">Payment & Subscription</Link>
                 </li>
-                <li className={'hover:font-bold w-[10rem] text-center '+((page=='archive')?"font-bold":"")}>
+                <li className={'hover:font-bold w-[9rem] text-center '+((page=='archive')?"font-bold":"")}>
                     <Link href="/archive">Archive</Link>
                 </li>
             </ul>

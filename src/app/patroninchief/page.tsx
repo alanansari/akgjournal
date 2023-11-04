@@ -1,12 +1,12 @@
 import Navbar from "@/components/Navbar/Navbar"
 import { openSans, oswald } from "@/utils/fonts"
-import Header from "@/components/patronincheif/Header"
+import Header from "@/components/patroninchief/Header"
 import Textbox from "@/components/Textbox"
 
 export default function Home() {
   return (
     <div className={openSans.className}>
-      <Navbar page='patronincheif'/>
+      <Navbar page='patroninchief'/>
       <Header />
       <Textbox>
         <h2 className={`text-3xl text-[#000336] font-semibold ${oswald.className}`}>Dr. R. K. Agarwal</h2>

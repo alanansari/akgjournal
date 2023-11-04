@@ -6,7 +6,7 @@ import { openSans, oswald } from '../../utils/fonts'
 const Navbar = (props: any) => {
     const {page=''} = props
     return (
-        <div className={`w-[100%] fixed flex flex-col justify-center items-center p-1 text-[#333] bg-white border-b-[1px] ${openSans.className}`}>
+        <div className={`w-[100%] fixed flex flex-col justify-center items-center p-1 text-[#333] bg-[#fbfbfb] border-b-[1px] ${openSans.className}`}>
             <div className='flex w-[100vw] border-b-[1px] justify-center items-center'>
                 <Image
                     className='px-2 py-1' 

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Navbar from '@/components/Navbar/Navbar'
-import Header from '@/components/Header/Header'
+import Header from '@/components/Home/Header'
 import { openSans } from '@/utils/fonts'
 
 export default function Home() {

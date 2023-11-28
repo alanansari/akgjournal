@@ -4,13 +4,15 @@ import Header from '@/components/Home/Header'
 import About from '@/components/Home/About'
 import { oswald,openSans } from '@/utils/fonts'
 import Textbox from '@/components/Textbox'
+import AboutAkgec from '@/components/AboutAkgec'
 
 export default function Home() {
   return (
-    <div className={openSans.className}>
+    <div className={`${openSans.className} `}>
       <Navbar page='home'/>
       <Header />
-      <About />
+      <AboutAkgec />
+      {/* <About /> */}
       <Textbox>
         <h2 className={`text-3xl text-[#000336] font-semibold ${oswald.className}`}>AKGEC <br/>International Journal of Technology </h2>
         <p>Ajay Kumar Garg Engineering College commenced publication of a biennial Technical Journal in 2010 to disseminate information spanning the entire spectrum of engineering and technology. We envisioned that this activity will help unleash the creative potential of technical community and provide a credible platform to receive professional recognition. Our journey through this arduous path has been a satisfying effort. We have sustained interest and support of the country’s Technical community.</p>

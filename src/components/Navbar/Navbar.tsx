@@ -45,6 +45,9 @@ const Navbar = (props: any) => {
                 <li className={"hover:font-bold w-[9rem] text-center "+((page==="home")?"font-bold":"")}>
                     <Link href="/">Home</Link>
                 </li>
+                <li className={"hover:font-bold w-[9rem] text-center "+((page==="about")?"font-bold":"")}>
+                    <Link href="/about">About Us</Link>
+                </li>
                 <li className={'hover:font-bold w-[12rem] text-center '+((page=='patroninchief')?"font-bold":"")}>
                     <Link href="/patroninchief">Patron-in Chief</Link>
                 </li>

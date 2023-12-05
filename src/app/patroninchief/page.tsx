@@ -3,6 +3,7 @@ import { openSans, clash_Display } from "@/utils/fonts"
 import Header from "@/components/patroninchief/Header"
 import Textbox from "@/components/Textbox"
 import ListData from "./Data.json"
+import Footer from "@/components/Footer/Footer"
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         })}
         
       </Textbox>
+      <Footer />
     </div>
   )
 }

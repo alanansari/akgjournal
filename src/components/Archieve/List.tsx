@@ -1,11 +1,21 @@
-import ListData from "../../app/archive/Data.json"
 import Image from "next/image"
 
-function List() {
+interface Props {
+  listData:{
+    heading:string,
+    content_title: string,
+    content_date: string,
+    content:{
+      title:string,
+      name:string
+    }[]
+  }[]
+}
+const List: React.FC<Props> = ({ listData }) => {
   return (
     <>
       <div className="flex flex-col items-center justify-center w-full mx-auto px-8 mt-10 z-2">
-        {ListData.map((l, index) => {
+        {listData.map((l) => {
           return (
             <div className="collapse border-2 border-black rounded-none mb-6">
               <input type="checkbox" />

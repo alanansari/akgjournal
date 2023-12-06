@@ -17,7 +17,7 @@ const Navbar = (props: any) => {
             <div className='flex w-[100vw] md:p-0 border-b-[1px] justify-center items-center'>
                 <Image
                     className='px-1 py-1 ml-auto md:ml-0 h-15 md:h-11' 
-                    src='akglogo.svg'
+                    src="akglogo.svg"
                     alt='akglogo'
                     width={44}
                     height={44}

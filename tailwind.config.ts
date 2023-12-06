@@ -22,7 +22,7 @@ const config: Config = {
       lg: '1300px',
     }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
 export default config

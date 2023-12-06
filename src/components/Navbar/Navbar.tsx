@@ -13,7 +13,7 @@ const Navbar = (props: any) => {
     }
 
     return (
-        <div className={`w-[100%] fixed flex flex-col justify-center items-center md:p-1 text-[#333] bg-[#fbfbfb] border-b-[1px] ${openSans.className}`}>
+        <div className={`z-10 w-[100%] fixed flex flex-col justify-center items-center md:p-1 text-[#333] bg-[#fbfbfb] border-b-[1px] ${openSans.className}`}>
             <div className='flex w-[100vw] md:p-0 border-b-[1px] justify-center items-center'>
                 <Image
                     className='px-1 py-1 ml-auto md:ml-0 h-15 md:h-11' 

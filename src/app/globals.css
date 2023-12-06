@@ -10,5 +10,9 @@
 
 body{
     background-color: #fbfbfb;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+}
+
+.footerImage{
+    object-fit: contain !important;
 }

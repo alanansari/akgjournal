@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Navbar from '@/components/Navbar/Navbar'
+import Footer from '@/components/Footer/Footer'
 import Header from '@/components/Home/Header'
 import About from '@/components/Home/About'
 import { oswald,openSans } from '@/utils/fonts'
@@ -20,6 +21,7 @@ export default function Home() {
         <p>Our source of articles mainly comprises the faculty teaching in Engineering Colleges across the country. Process of publication of the Journal is supervised by IIT-background professionals with impeccable credentials. The articles are blind-peer reviewed and published following internationally-accepted IEEE style as the format for publication. Printed on art paper, the Journal with ISSN number 0975-9514 is currently running in its Ninth volume. To begin with we had planned the Journal at the national level. Gradually, the contributions started coming from overseas Universities and we converted it to an international journal.</p>
         <p>To recognize the invaluable Intellectual contribution made by professionals in advancing the noble cause of dissemination of scientific and engineering knowledge, all published articles since Volume 7 of the “AKGEC International Journal of Technology” are being suitably rewarded. A prize of Rs.5,000 is being paid to the paper adjudged the best for each issue. For the balance, an amount of Rs.2,500 per article is earmarked.</p>
       </Textbox> */}
+      <Footer />
     </div>
   )
 }

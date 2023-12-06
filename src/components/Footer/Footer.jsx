@@ -1,5 +1,6 @@
 import akgLogo from "../../../public/akgLogo.png";
 import { oswald, openSans, clash_Display } from "@/utils/fonts";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -18,21 +19,21 @@ const Footer = () => {
       </div>
       <div className="text-base sm:text-sm mid:text-base text-left pl-4 xs:pl-12 sm:pl-0">
         <ul className={`flex flex-col gap-2 ${clash_Display.className}`}>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Patron-in Chief</li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/about">About Us</Link></li>
+          <li><Link href="/patroninchief">Patron-in Chief</Link></li>
         </ul>
       </div>
       <div className="text-base sm:text-sm mid:text-base text-left pl-4 xs:pl-12 sm:pl-0">
         <ul className={`flex flex-col gap-2 ${clash_Display.className}`}>
-          <li>Editorial Team </li>
-          <li>Editorial Advisory Board</li>
-          <li>Payment & Subscription</li>
+          <li><Link href="/editorialteam ">Editorial Team</Link></li>
+          <li><Link href="/editorialboard">Editorial Advisory Board</Link></li>
+          <li><Link href="/payment">Payment & Subscription</Link></li>
         </ul>
       </div>
       <div className="text-base sm:text-sm mid:text-base text-left pl-4 xs:pl-12 sm:pl-0">
         <ul className={`flex flex-col gap-2 ${clash_Display.className}`}>
-          <li>Archive</li>
+          <li><Link href="/archive">Archive</Link></li>
         </ul>
       </div>
     </div>

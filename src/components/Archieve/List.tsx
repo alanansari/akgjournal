@@ -19,15 +19,15 @@ const List: React.FC<Props> = ({ listData }) => {
           return (
             <div className="collapse border-2 border-black rounded-none mb-6">
               <input type="checkbox" />
-              <div className="collapse-title flex justify-between items-center px-6 text-black h-16 border-b-2 border-black">
+              <div className="collapse-title text-sm text-center md:text-base flex justify-between items-center px-2 md:px-6 text-black h-16 border-b-2 border-black">
                 <span>
                   <Image src="menuBook.svg" alt="icon" width={24} height={24} />
                 </span>
                 {l.heading}
-                <span className="font-bold text-2xl">+</span>
+                <span className="font-bold text-2xl mt-[-5px]">+</span>
               </div>
               <div className="collapse-content px-4">
-                <div className="mt-4 text-center text-[15px] py-3 px-4 w-full bg-slate-200 border-t-2 border-gray-600 ">
+                <div className="mt-4 text-center text-sm md:text-[15px] py-3 px-4 w-full bg-slate-200 border-t-2 border-gray-600 ">
                   {l.content_title}
                 </div>
                 <div className="text-center text-[15px] py-3 px-4 w-full border-t-2 border-gray-600 ">

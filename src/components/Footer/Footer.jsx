@@ -6,13 +6,13 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="flex border-t-2 flex-col border-black justify-center sm:items-start text-left gap-6 sm:justify-around px-4 py-12 mid:px-16 mid:py-16 mt-4 sm:flex-row">
-      <div className="flex justify-start sm:w-[32%] gap-2">
+      <div className="flex justify-start w-full sm:w-2/5 gap-2">
         <Image
-          src="/akgLogo.png"
+          src="akglogo.svg"
           alt="akglogo"
-          width={44}
-          height={44}
-          className="object-fit"
+          width={50}
+          height={50}
+          className="object-none"
         />
         <div className={`${oswald.className}`}>
           <p className="font-bold text-lg sm:text-base mid:text-lg">

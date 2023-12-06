@@ -6,6 +6,7 @@ import About from '@/components/Home/About'
 import { oswald,openSans } from '@/utils/fonts'
 import Textbox from '@/components/Textbox'
 import AboutAkgec from '@/components/AboutAkgec'
+import Editorial from '@/components/Home/Editorial'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbar page='home'/>
       <Header />
       <AboutAkgec />
+      <Editorial />
       {/* <About /> */}
       {/* <Textbox>
         <h2 className={`text-3xl text-[#000336] font-semibold ${oswald.className}`}>AKGEC <br/>International Journal of Technology </h2>

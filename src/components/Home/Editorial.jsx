@@ -2,6 +2,7 @@ import { openSans, clash_Display } from "@/utils/fonts";
 import List from "../Archieve/List";
 import Link from "next/link";
 import Image from "next/image";
+import ListData from "../../app/archive/Data.json"
 
 function Editorial() {
   return (
@@ -35,7 +36,7 @@ function Editorial() {
           </Link>
         </div>
         <div className="md:ml-6 p-4 w-full">
-          <List />
+          <List listData={ListData.slice(0, 2)} />
         </div>
       </div>
     </>

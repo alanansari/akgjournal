@@ -1,17 +1,19 @@
 import Image from "next/image"
 
 interface Props {
-  listData:{
-    heading:string,
+  listData: {
+    heading: string,
     content_title: string,
     content_date: string,
-    content:{
-      title:string,
-      name:string
+    content: {
+      title: string,
+      name: string,
+      link:string
     }[]
   }[]
 }
 const List: React.FC<Props> = ({ listData }) => {
+
   return (
     <>
       <div className="flex flex-col items-center justify-center w-full mx-auto px-8 mt-10 z-2">
@@ -40,13 +42,14 @@ const List: React.FC<Props> = ({ listData }) => {
                 {l.content.map((item, index) => {
                   return (
                     <div
-                      className={`flex p-2 ${
-                        index % 2 == 0 ? "bg-white" : "bg-slate-200"
-                      } border-t-2 border-gray-600`}
+                      className={`flex p-2 ${index % 2 == 0 ? "bg-white" : "bg-slate-200"
+                        } border-t-2 border-gray-600`}
                     >
                       <div className="w-1/5">{index + 1}</div>
                       <div className="w-4/5">
-                        {item.title}
+                        <a href={`/${item.link}.pdf`} download={item.link}>
+                          {item.title}
+                        </a>
                         <br />
                         <span className="text-black">{item.name}</span>
                       </div>

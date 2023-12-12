@@ -16,10 +16,9 @@ export default function Home() {
           <h1 className={`${clash_Display.className} font-semibold mt-4 md:mt-0 text-5xl w-[100%] md:w-[50%] leading-normal pb-3`}>{team.Name}</h1>
           <p className=" w-[100%] md:w-[70%]">{team.TopText}</p>
         </div>
-        {/* <img src="/editorial.png" alt="pic" className='w-[20rem] h-[23rem] object-cover'/> */}
         <Image
           src={team.Image}
-          alt="akglogo"
+          alt="editorial_team"
           width={50}
           height={50}
           className="w-[20rem] h-[23rem] object-cover"

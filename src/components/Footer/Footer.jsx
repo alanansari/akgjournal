@@ -1,4 +1,3 @@
-import akgLogo from "../../../public/akgLogo.png";
 import { oswald, openSans, clash_Display } from "@/utils/fonts";
 import Image from "next/image";
 import Link from "next/link";

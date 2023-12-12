@@ -8,7 +8,7 @@ import Footer from "@/components/Footer/Footer"
 
 export default function Home() {
   return (<>
-    <div className={` ${openSans.className} flex flex-col`}>
+    <div className={` ${openSans.className} flex flex-col min-h-[100vh]`}>
       <Navbar page='archive' />
       <div className='w-[100vw] pt-[7rem] flex flex-col items-center border-t-2 border-black flex-1'>
         <div className='text-center flex flex-col justify-center items-center '>

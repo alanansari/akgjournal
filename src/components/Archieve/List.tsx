@@ -8,7 +8,7 @@ interface Props {
     content: {
       title: string,
       name: string,
-      link:string
+      link?:string
     }[]
   }[]
 }
@@ -46,10 +46,11 @@ const List: React.FC<Props> = ({ listData }) => {
                         } border-t-2 border-gray-600`}
                     >
                       <div className="w-1/5">{index + 1}</div>
-                      <div className="w-4/5">
-                        <a href={`/${item.link}.pdf`} download={item.link}>
+                      <div className="w-4/5">{
+                        (item.link)?
+                        <a href={`/${item.link}.pdf`} target='_blank' className="text-blue-500">
                           {item.title}
-                        </a>
+                        </a>:item.title}
                         <br />
                         <span className="text-black">{item.name}</span>
                       </div>

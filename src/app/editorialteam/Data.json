@@ -1,9 +1,45 @@
-{
-    "TopText":"B.Tech, M.Tech & Ph.D (IITK). Dr Ranjit Singh (b. 17 Aug 1948) obtained B.Tech, M.Tech. and Ph.D degrees from Indian Institute of Technology, Kanpur in 1969, 1971 and 1975 respectively specializing in the area of Electronic communication circuits and devices.",
+[
+    {
+    "Name":"Dr Ranjit Singh" ,
+    "Image":"/Dr_Ranjit.png",
+    "TopText":"B.Tech, M.Tech. and Ph.D degrees from Indian Institute of Technology, Kanpur in 1969, 1971 and 1975 respectively specializing in the area of Electronic communication circuits and devices.",
     "List":["Currently, he is Editor-in-Chief of the ‘AKGEC International Journal of Technology’, which is running in ninth volume.",
 "Published large number of technical papers in IETE journals in addition to in-depth technology-reviews covering emerging trends in Communications and information technology. He was Editor at IETE during 1975-1987; Technical Editor at ‘Telematics India’ during 1987-2001; Editor of Industrial Purchase journal during 2002- 2008.",
 "He has abiding passion for teaching and research. Guided 10 M. Tech and 2 PhD scholars besides supervising 15 B.Tech projects. Delivered Keynote address on ‘Mobile Computing’ in Feb 2014 at Annual Convention of JIMS.",
 "He is Life Fellow of the IETE and attended international conferences held in France, Singapore, USA, Hong Kong and Nepal. Daily practices advanced ‘Art-of-Living’ meditation. Also associated with ‘Amway’ and Insurance sector.",
 "Contact Details : +91 9868041558",
 "Email Id : editor_journal@akgec.ac.in, akgec.ece@gmail.com"]
+},
+{
+    "Name":"Dr. Ruchi Gupta" ,
+    "Image":"/Dr_Ruchi.jpg",
+    "TopText":"Associate professor from the department of Information Technology, Ajay Kumar Garg Engineering College Ghaziabad, Abdul kalam Technical University, Lucknow, India",
+    "List":[" She has more than 17 years of teaching experience",
+"Her major research areas include Genetic Algorithms, Machine Learning and Federated Learning.",
+"She is the reviewer of many refereed journals.",
+"She has published many research papers in reputed International and national journals.",
+"Currently, she is working on machine learning for solving multiple sequence alignment problems and federated learning for distributed environments."]
+},
+{
+    "Name":"Dr. Namrata Gangil" ,
+    "Image":"/Dr_Namrata.jpg",
+    "TopText":"Associate Professor in the Department of Mechanical Engineering.",
+    "List":["She has over 14 years of teaching and research experience at undergraduate and postgraduate levels.",
+"She has supervised a number of masters dissertations and currently supervising two doctoral research.",
+"She has published several high impact SCI research articles in esteemed journals, book chapters and a book from reputed international publishers. ",
+"Her Google Scholar Citations are 653, H-index is 13 and i-10 index is 16.  Her abilities and merits have been well recognized and she has been felicitated by Dr. APJ Abdul Kalam Technical University as a “best teacher” on the occasion of teachers day in 2019.",
+"She is also a Recipient of “Certificate of Merit” for contribution in the field of education during Maulana Abdul Kalam Azad Excellence Award of Education-2020 organized by Shikshak Kalyan Foundation.",
+"Her research areas include friction stir welding, friction stir processing, advanced materials and manufacturing, additive manufacturing, and material-structure-property correlation. "]
+},
+{
+    "Name":"Mr. Dushyant Singh Chauhan" ,
+    "Image":"/Mr_Dushyant.jpg",
+    "TopText":"Assistant Professor in the Department of Electronics and Communication Engineering.",
+    "List":[" With an impressive academic and research background, he has made significant contributions to the field of electronics and communication.",
+" Having earned his expertise over 11 years of dedicated teaching. His commitment to fostering a dynamic learning environment and nurturing the intellectual growth of students has garnered him recognition among peers and students alike.",
+"In the realm of research, he has demonstrated a keen interest and proficiency. He has authored 2 scientific publications and contributed to 3 book chapters, showcasing his depth of knowledge and engagement in cutting-edge developments within his field.",
+"His research work reflects a commitment to staying abreast of the latest advancements and a dedication to contributing meaningfully to the academic discourse. ",
+"Additionally, Mr. Chauhan has actively participated in 2 international conferences, further establishing his presence in the academic community. ",
+"His research areas include optical wireless communication, underwater communication and deep learning."]
 }
+]

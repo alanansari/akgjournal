@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar/Navbar"
 import { openSans, clash_Display } from '@/utils/fonts'
-import Image from "next/image"
 import ListData from "./Data.json"
 import List from "../../components/Archieve/List"
 import Footer from "@/components/Footer/Footer"

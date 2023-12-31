@@ -4,6 +4,7 @@ import Header from "@/components/patroninchief/Header"
 import Textbox from "@/components/Textbox"
 import ListData from "./Data.json"
 import Footer from "@/components/Footer/Footer"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -16,7 +17,13 @@ export default function Home() {
             <h1 className={`${clash_Display.className} font-semibold text-5xl w-[100%] md:w-[50%] leading-normal pb-3`}>Dr. R.K. Agarwal</h1>
             <p className=" w-[100%] md:w-[70%]">{ListData.TopText}</p>
           </div>
-          <img src="/pic.png" alt="pic" className='w-[40rem] h-[20rem] object-cover' />
+          <Image
+          src="/pic.png"
+          alt="patron in chief"
+          width={70}
+          height={70}
+          className="w-[40rem] h-[20rem] object-cover"
+        />
         </div>
         <Textbox>
           {ListData.List.map((item, index) => {

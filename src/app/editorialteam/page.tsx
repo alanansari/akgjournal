@@ -21,7 +21,7 @@ export default function Home() {
           alt="editorial_team"
           width={50}
           height={50}
-          className="w-[20rem] h-[23rem] object-cover"
+          className="w-[15rem] h-[18rem] object-cover"
         />
       </div>
       <Textbox pxval={20}> 

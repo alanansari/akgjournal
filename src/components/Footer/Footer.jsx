@@ -36,6 +36,9 @@ const Footer = () => {
           <li>
             <Link href="/patroninchief">Patron-in Chief</Link>
           </li>
+          <li>
+            <Link href="/director">Director</Link>
+          </li>
         </ul>
       </div>
       <div className="text-base sm:text-sm mid:text-base text-left pl-4 xs:pl-12 sm:pl-0">

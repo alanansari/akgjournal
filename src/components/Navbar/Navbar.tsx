@@ -48,10 +48,13 @@ const Navbar = (props: any) => {
                 <li className={"hover:font-bold w-[9rem] text-center "+((page==="about")?"font-bold":"")}>
                     <Link href="/about">About Us</Link>
                 </li>
-                <li className={'hover:font-bold w-[12rem] text-center '+((page=='patroninchief')?"font-bold":"")}>
+                <li className={'hover:font-bold w-[9rem] text-center '+((page=='patroninchief')?"font-bold":"")}>
                     <Link href="/patroninchief">Patron-in Chief</Link>
                 </li>
-                <li className={'hover:font-bold w-[12rem] text-center '+((page=='editorialteam')?"font-bold":"")}>
+                <li className={'hover:font-bold w-[9rem] text-center '+((page=='director')?"font-bold":"")}>
+                    <Link href="/director">Director</Link>
+                </li>
+                <li className={'hover:font-bold w-[9em] text-center '+((page=='editorialteam')?"font-bold":"")}>
                     <Link href="/editorialteam ">Editorial Team</Link>
                 </li>
                 <li className={'hover:font-bold w-[12rem] text-center '+((page=='editorialboard')?"font-bold":"")}>

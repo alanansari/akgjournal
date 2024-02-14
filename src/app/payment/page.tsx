@@ -57,6 +57,9 @@ export default function Home() {
            <td className="border-black border-2">250</td>
            <td className="border-black border-2">400</td>
           </tr>
+          <tr>
+            <td colSpan={5} className="text-lg border-black border-2">Please add Rs. 30 towards bank charges, in case of outstation cheques</td>
+          </tr>
           </table>
           <table className={`${clash_Display.className} border-2 w-1/2 border-black border-collapse text-center`}>
           <tr>
@@ -82,9 +85,6 @@ export default function Home() {
            <td className="border-black border-2">40</td>
            <td className="border-black border-2">70</td>
            <td className="border-black border-2">100</td>
-          </tr>
-          <tr>
-            <td colSpan={5} className="text-lg border-black border-2">Please add Rs. 30 towards bank charges, in case of outstation cheques</td>
           </tr>
           <tr>
             <td colSpan={5} className="text-lg border-black border-2">Overseas Payments through bank drafts.</td>

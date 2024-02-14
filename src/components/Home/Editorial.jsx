@@ -19,7 +19,7 @@ function Editorial() {
             By AKGEC
           </div>
           <div className={` w-full py-2 text-[#08090C] text-xl text-center md:text-start mb-8`}>
-            Here’s what people of our collage have published over the years.
+            Here’s what people of our college have published over the years.
           </div>
 
           <Link

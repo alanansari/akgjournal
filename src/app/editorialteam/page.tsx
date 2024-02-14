@@ -19,8 +19,8 @@ export default function Home() {
         <Image
           src={team.Image}
           alt="editorial_team"
-          width={50}
-          height={50}
+          width={100}
+          height={100}
           className="w-[15rem] h-[18rem] object-cover"
         />
       </div>

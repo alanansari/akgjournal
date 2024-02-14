@@ -7,7 +7,7 @@ import Image from "next/image"
 export default function Home() {
   return (
     <div className={openSans.className}>
-    <Navbar page='about'/>
+    <Navbar page='payment'/>
     <div className="pt-[7rem] md:pt-[10rem] flex flex-col items-center justify-center mb-10 px-4">
     <h1 className={`${clash_Display.className} font-semibold text-2xl xs:text-3xl mb-2 sm:text-5xl sm:mb-6 leading-normal text-center`}>Payment & Subscription</h1> 
     <h3 className={`${openSans.className} font-medium text-base xs:text-lg mb-2 sm:text-xl sm:mb-6 leading-normal text-center`}>Choose your Subscription. Choose your Payment method. fill the form.</h3>

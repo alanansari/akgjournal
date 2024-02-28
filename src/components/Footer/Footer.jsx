@@ -63,8 +63,8 @@ const Footer = () => {
         </ul>
       </div>
     </div>
-    <div className='flex justify-center items-center border-t border-t-gray-400 py-1'>
-        Designed &amp; Developed by &nbsp;&nbsp; <img src='silogo.svg'/>&nbsp;&nbsp; <a href="https://silive.in" rel="noreferrer" className="no-underline" target="_blank"><span className='text-[#2499F9] text-sm sm:text-sm md:text-base'>SOFTWARE</span><span className="text-black text-xs sm:text-sm md:text-base"> INCUBATOR</span></a>
+    <div className='flex justify-center items-center border-t border-t-gray-400 py-2 text-xs md:text-base'>
+        Designed &amp; Developed by &nbsp;&nbsp; <img src='silogo.svg'/>&nbsp;&nbsp; <a href="https://silive.in" rel="noreferrer" className="no-underline" target="_blank"><span className='text-[#2499F9]'>SOFTWARE</span><span className="text-black"> INCUBATOR</span></a>
     </div>
     </>
   );

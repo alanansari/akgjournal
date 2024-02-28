@@ -4,6 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
+    <>
     <div className="flex border-t-2 flex-col border-black justify-center sm:items-start text-left gap-6 sm:justify-around px-4 py-12 mid:px-16 mid:py-16 mt-4 sm:flex-row">
       <div className="flex justify-start w-full sm:w-2/5 gap-2">
         <Image
@@ -62,6 +63,10 @@ const Footer = () => {
         </ul>
       </div>
     </div>
+    <div className='flex justify-center items-center border-t border-t-gray-400 py-1'>
+        Designed &amp; Developed by &nbsp;&nbsp; <img src='silogo.svg'/>&nbsp;&nbsp; <a href="https://silive.in" rel="noreferrer" className="no-underline" target="_blank"><span className='text-[#2499F9] text-sm sm:text-sm md:text-base'>SOFTWARE</span><span className="text-black text-xs sm:text-sm md:text-base"> INCUBATOR</span></a>
+    </div>
+    </>
   );
 };
 export default Footer;
